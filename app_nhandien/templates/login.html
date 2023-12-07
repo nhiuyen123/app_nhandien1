@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng Nhập</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- jQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- Section: Design Block -->
+  <section class="text-center">
+    <!-- Background image -->
+    <div class=" bg-color" style="
+        background-color: hsl(199, 41%, 69%);
+        height: 300px;
+        ">
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+      <div class="card mx-4 mx-md-5 shadow-5-strong" style="
+        margin-top: -500px;
+        background: hsl(0, 0%, 100%);
+        backdrop-filter: blur(30px);
+        width: 80%;
+        ">
+        <div class="card-body py-5 px-md-5">
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+
+              <form>
+                <!--image -->
+                <div>
+                  <img src="./img/logo.jpg" alt="" width="250px">
+                </div>
+
+
+                <h2 class="fw-bold mb-5" style="color: hsl(199, 69%, 37%);">ĐĂNG NHẬP VÀO HỆ THỐNG</h2>
+                <!-- MSSV input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="mssv" class="form-control" placeholder="Mã sinh viên" />
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="password" class="form-control" placeholder="Mật khẩu" />
+                </div>
+                <!-- Checkbox and forgot password link -->
+                <div class="row mb-4">
+                  <div class="col-md-6">
+                    <div class="form-check d-flex justify-content-center">
+                      <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                      <label class="form-check-label" for="form2Example33">
+                        Nhớ mật khẩu
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex justify-content-center">
+                      <a href="^1^">Quên mật khẩu?</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">
+                  Đăng nhập
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+</body>
+
+</html>
